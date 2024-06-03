@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --primary-green: 111, 28%, 49%;
+    --secondary-green: 109, 28%, 92%;
+    --accent-dark: 204, 9%, 10%;
+}

@@ -10,7 +10,14 @@ export default {
         "2xl": "1600px",
       },
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        "primary-green": "hsl(var(--primary-green))",
+        "secondary-green": "hsl(var(--primary-green))",
+        "accent-dark": "hsl(var(--primary-green))",
+      },
+    },
   },
   plugins: [],
 };
