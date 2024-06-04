@@ -5,12 +5,12 @@ import vector2 from "../../../assets/bg_texture/Vector2.png";
 import flower from "../../../assets/images/flowers.png";
 import ButtonGreen from "../../button/ButtonGreen";
 
-const Cultivate = () => {
+const CultivateSection = () => {
   return (
     <Section className="bg-secondary-green py-16">
       <FlexSection className="justify-between">
-        <div className="relative max-w-[37rem] font-Noto">
-          <h1 className="leading-[74.4px] text-6xl text-accent-dark">
+        <div className="relative max-w-[35rem] mx-auto lg:max-w-[37rem] font-Noto">
+          <h1 className="text-6xl leading-[74.4px] lg:leading-[74.4px]  text-accent-dark">
             Cultivate Your Outdoor Paradise with Plants & Decor!
           </h1>
           <p className="my-4 text-[16px]">
@@ -24,11 +24,15 @@ const Cultivate = () => {
           <img src={vector2} alt="bg-2" />
         </div>
         <div>
-          <img src={flower} className="rounded-l-full" alt="flowers" />
+          <img
+            src={flower}
+            className="mx-auto rounded-l-full rounded-r-full lg:rounded-r-none"
+            alt="flowers"
+          />
         </div>
       </FlexSection>
     </Section>
   );
 };
 
-export default Cultivate;
+export default CultivateSection;
