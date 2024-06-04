@@ -13,14 +13,10 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
   };
 
   return (
-    <Card
-      className={`rounded-none max-w-sm p-0 ${
-        rating ? "shadow-md" : "shadow-none"
-      }`}
-    >
+    <Card className={`rounded-none max-w-sm p-0 shadow-none`}>
       <CardBody
         className={`${
-          !rating && "shadow-md"
+          rating ? "shadow-md" : "shadow-none"
         } flex justify-center -p-2 flex-col items-center`}
       >
         <img src={imgSrc ? imgSrc : img} />
@@ -28,11 +24,11 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
         {rating && (
           <StarPicker
             value={rating / 2}
-            className="blueTheme bg-secondary-green w-full flex justify-center"
+            className="blueTheme gap-3 bg-secondary-green w-full flex justify-center"
             starRenderer={simpleRenderer}
             disabled
             starCount={2.5}
-            size={50}
+            size={40}
             halfStars
           ></StarPicker>
         )}
