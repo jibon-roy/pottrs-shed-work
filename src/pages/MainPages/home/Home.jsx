@@ -1,7 +1,9 @@
+import Menu from "../../../components/menu/Menu";
+
 const Home = () => {
   return (
     <section>
-      This is Home
+      <Menu />
       <div></div>
     </section>
   );
