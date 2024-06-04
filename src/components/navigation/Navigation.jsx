@@ -5,7 +5,7 @@ import { LuMail } from "react-icons/lu";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-    <nav className="min-h-12 font-medium bg-primary-green py-px flex flex-wrap items-center justify-around text-white">
+    <nav className="min-h-12 font-medium font-Inter bg-primary-green py-px flex flex-wrap items-center justify-around text-white">
       <div className="flex gap-2 items-center">
         <FiPhoneCall></FiPhoneCall>0431 344 177
       </div>
@@ -33,14 +33,19 @@ const Navigation = () => {
           <Link to="/">Login</Link>/<Link to="/">Register</Link>
         </li>
         <li>
-          <PiFacebookLogoBold />
+          <Link to="/">
+            <PiFacebookLogoBold />
+          </Link>
         </li>
         <li>
-          <FaInstagram />
+          <Link to="/">
+            <FaInstagram />
+          </Link>
         </li>
         <li>
-          {" "}
-          <LuMail />
+          <Link to="/">
+            <LuMail />
+          </Link>
         </li>
       </ul>
     </nav>

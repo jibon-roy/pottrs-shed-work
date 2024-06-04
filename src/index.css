@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+
 :root{
     --primary-green: 111, 28%, 49%;
     --secondary-green: 109, 28%, 92%;

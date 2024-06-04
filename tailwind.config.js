@@ -11,6 +11,9 @@ export default {
     },
 
     extend: {
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
+      },
       colors: {
         "primary-green": "hsl(var(--primary-green))",
         "secondary-green": "hsl(var(--primary-green))",
