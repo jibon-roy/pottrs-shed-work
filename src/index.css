@@ -12,3 +12,23 @@
     --secondary-green: 109, 28%, 92%;
     --accent-dark: 204, 9%, 10%;
 }
+
+.StarPicker.blueTheme .StarPickerButton {
+    transition: color 0.2s;
+    color: hsl(111, 28%, 49%);
+}
+
+.StarPicker.blueTheme .StarPickerButton.selected {
+    color: hsl(111, 28%, 49%);
+    
+}
+
+.StarPicker.blueTheme .StarPickerButton.addSelection {
+    color: hsl(111, 28%, 49%);
+    
+}
+
+.StarPicker.blueTheme .StarPickerButton.removeSelection {
+    color: hsl(109, 28%, 92%);
+    
+}
