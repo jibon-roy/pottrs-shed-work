@@ -1,9 +1,9 @@
 import Section from "../../Section/Section";
-import FlexSection from "../../flexSection/FlexSection";
 import vector1 from "../../../assets/bg_texture/Vector1.png";
 import vector2 from "../../../assets/bg_texture/Vector2.png";
 import flower from "../../../assets/images/flowers.png";
 import ButtonGreen from "../../button/ButtonGreen";
+import FlexSection from "../../Section/FlexSection";
 
 const CultivateSection = () => {
   return (

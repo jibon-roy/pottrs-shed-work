@@ -14,14 +14,14 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
 
   return (
     <Card
-      className={`rounded-none max-w-sm p-0 mx-5 ${
+      className={`rounded-none max-w-sm p-0 ${
         rating ? "shadow-md" : "shadow-none"
       }`}
     >
       <CardBody
         className={`${
           !rating && "shadow-md"
-        } flex justify-center p-0 flex-col items-center`}
+        } flex justify-center -p-2 flex-col items-center`}
       >
         <img src={imgSrc ? imgSrc : img} />
 
@@ -37,9 +37,9 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
           ></StarPicker>
         )}
       </CardBody>
-      <CardFooter className="px-0 py-2">
-        <div className="py-2">{children}</div>
-        <div className="py-2">
+      <CardFooter className="px-0 pt-2 text-accent-dark font-Inter">
+        <div className="py-1">{children}</div>
+        <div className="py-1">
           {quantity ? `Available ${quantity}ps` : ""}
           {price ? `Price: $${price.toFixed(2)} ` : ""}
         </div>
