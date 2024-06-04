@@ -45,7 +45,7 @@ const BackInStockSection = () => {
       <Heading title="Top Demand Products Now Back in Stock">
         Back in Stock
       </Heading>
-      <GridSection>
+      <GridSection className="gap-5">
         {products.map(({ id, imgSrc, price, title, rating }) => (
           <ProductCard key={id} imgSrc={imgSrc} rating={rating} price={price}>
             {title}

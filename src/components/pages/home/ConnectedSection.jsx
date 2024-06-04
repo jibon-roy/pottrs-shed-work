@@ -15,8 +15,8 @@ const ConnectedSection = () => {
         <div>
           <img src={bg1} alt="" />
         </div>
-        <div>
-          <Heading>Stay Connected</Heading>
+        <div className="flex flex-col items-center">
+          <Heading className="my-3">Stay Connected</Heading>
           <FlexSection className="text-5xl justify-between w-full">
             <a href="#">
               <PiFacebookLogoThin />
