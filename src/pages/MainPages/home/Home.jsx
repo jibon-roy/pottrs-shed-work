@@ -3,6 +3,7 @@ import MenuSection from "../../../components/menu/Menu";
 import CultivateSection from "../../../components/pages/home/Cultivate";
 import ArrivalsSection from "../../../components/pages/home/ArrivalsSection";
 import ConnectedSection from "../../../components/pages/home/ConnectedSection";
+import BackInStockSection from "../../../components/pages/home/BackInStockSection";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       </Carousel>
       <ArrivalsSection />
       <ConnectedSection />
+      <BackInStockSection />
     </>
   );
 };
