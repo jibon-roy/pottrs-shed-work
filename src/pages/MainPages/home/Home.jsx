@@ -1,6 +1,7 @@
 import { Carousel } from "@material-tailwind/react";
 import MenuSection from "../../../components/menu/Menu";
 import CultivateSection from "../../../components/pages/home/Cultivate";
+import ArrivalsSection from "../../../components/pages/home/ArrivalsSection";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
         <CultivateSection />
         <CultivateSection />
       </Carousel>
+      <ArrivalsSection />
     </>
   );
 };
