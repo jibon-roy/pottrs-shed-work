@@ -21,11 +21,12 @@ export default withMT({
     extend: {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
+        Noto: ["Noto Serif", "sans-serif"],
       },
       colors: {
         "primary-green": "hsl(var(--primary-green))",
-        "secondary-green": "hsl(var(--primary-green))",
-        "accent-dark": "hsl(var(--primary-green))",
+        "secondary-green": "hsl(var(--secondary-green))",
+        "accent-dark": "hsl(var(--accent-dark))",
       },
     },
   },

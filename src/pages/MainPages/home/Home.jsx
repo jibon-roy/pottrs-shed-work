@@ -1,10 +1,11 @@
 import Menu from "../../../components/menu/Menu";
+import Cultivate from "../../../components/pages/home/Cultivate";
 
 const Home = () => {
   return (
     <section>
       <Menu />
-      <div></div>
+      <Cultivate />
     </section>
   );
 };

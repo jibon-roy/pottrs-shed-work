@@ -1,5 +1,5 @@
-const FlexSection = ({ children }) => {
-  return <div className="flex">{children}</div>;
+const FlexSection = ({ children, className }) => {
+  return <div className={`flex ${className}`}>{children}</div>;
 };
 
 export default FlexSection;
