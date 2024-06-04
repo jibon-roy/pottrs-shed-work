@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { BsHandbag } from "react-icons/bs";
+import Section from "../Section/Section";
 
 const Menu = () => {
   return (
-    <div className="flex my-2 justify-evenly items-center">
+    <Section className="flex my-2 justify-evenly items-center">
       <div>
         <img src="./site_logo.png" alt="Site logo" />
       </div>
@@ -47,7 +48,7 @@ const Menu = () => {
         <FaRegCircleUser />
         <BsHandbag />
       </div>
-    </div>
+    </Section>
   );
 };
 
