@@ -3,7 +3,7 @@ import Navigation from "../../components/navigation/Navigation";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="container">
       <Navigation />
       <Outlet />
     </div>
