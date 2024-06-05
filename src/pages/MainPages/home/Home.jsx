@@ -7,6 +7,7 @@ import BackInStockSection from "../../../components/pages/home/BackInStockSectio
 import WindSpinnersSection from "../../../components/pages/home/WindspinnersSection";
 import TopCategorySection from "../../../components/pages/home/TopCategorySection";
 import EntireRangSection from "../../../components/pages/home/EntireRangSection";
+import DiscountSection from "../../../components/pages/home/DiscountSection";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       <BackInStockSection />
       <WindSpinnersSection />
       <TopCategorySection />
+      <DiscountSection />
       <EntireRangSection />
     </>
   );
