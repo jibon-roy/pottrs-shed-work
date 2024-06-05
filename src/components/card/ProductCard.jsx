@@ -27,7 +27,7 @@ const ProductCard = ({
   return (
     <Card className={`rounded-none mx-auto max-w-sm p-0 shadow-none`}>
       {category && (
-        <CardHeader className="px-0 text-center text-xl pt-2 text-accent-dark font-Inter">
+        <CardHeader className="px-0 text-center shadow-none bg-secondary-green m-0 rounded-none text-xl py-5 text-accent-dark font-Inter">
           {category}
         </CardHeader>
       )}
