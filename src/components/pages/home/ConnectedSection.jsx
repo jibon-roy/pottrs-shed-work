@@ -17,7 +17,7 @@ const ConnectedSection = () => {
         </div>
         <div className="flex flex-col items-center">
           <Heading className="my-3">Stay Connected</Heading>
-          <FlexSection className="text-5xl justify-between w-full">
+          <div className="text-5xl flex my-5 md:my-0 justify-between w-full">
             <a href="#">
               <PiFacebookLogoThin />
             </a>
@@ -27,7 +27,7 @@ const ConnectedSection = () => {
             <a href="#">
               <GoMail />
             </a>
-          </FlexSection>
+          </div>
         </div>
         <div>
           <img src={bg2} alt="" />
