@@ -6,6 +6,7 @@ import ConnectedSection from "../../../components/pages/home/ConnectedSection";
 import BackInStockSection from "../../../components/pages/home/BackInStockSection";
 import WindSpinnersSection from "../../../components/pages/home/WindspinnersSection";
 import TopCategorySection from "../../../components/pages/home/TopCategorySection";
+import EntireRangSection from "../../../components/pages/home/EntireRangSection";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       <BackInStockSection />
       <WindSpinnersSection />
       <TopCategorySection />
+      <EntireRangSection />
     </>
   );
 };

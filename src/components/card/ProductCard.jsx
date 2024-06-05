@@ -25,7 +25,9 @@ const ProductCard = ({
   };
 
   return (
-    <Card className={`rounded-none mx-auto max-w-sm p-0 shadow-none`}>
+    <Card
+      className={`rounded-none bg-transparent mx-auto max-w-sm p-0 shadow-none`}
+    >
       {category && (
         <CardHeader className="px-0 text-center shadow-none bg-secondary-green m-0 rounded-none text-xl py-5 text-accent-dark font-Inter">
           {category}
@@ -34,7 +36,7 @@ const ProductCard = ({
       <CardBody
         className={`${
           rating ? "shadow-md hover:shadow-lg transition" : "shadow-none"
-        } flex justify-center -p-2 flex-col items-center`}
+        } flex justify-center -p-2 flex-col bg-white items-center`}
       >
         <img
           src={imgSrc ? imgSrc : img}
@@ -55,7 +57,7 @@ const ProductCard = ({
           ></StarPicker>
         )}
       </CardBody>
-      <CardFooter className="px-0 pt-2 text-accent-dark font-Inter">
+      <CardFooter className="px-0 bg-transparent pt-2 text-accent-dark font-Inter">
         <div className="py-1">{children}</div>
         <div className="py-1">
           {quantity ? `Available ${quantity}ps` : ""}
