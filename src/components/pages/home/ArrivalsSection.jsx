@@ -36,16 +36,18 @@ const ArrivalsSection = () => {
   ];
 
   return (
-    <Section>
-      <Heading title="Checkout New Products">New Arrivals</Heading>
-      <FlexSection className="pt-5 pb-2 gap-5">
-        {arrivalProducts.map(({ id, imgSrc, quantity, title }) => (
-          <ProductCard key={id} imgSrc={imgSrc} quantity={quantity}>
-            {title}
-          </ProductCard>
-        ))}
-      </FlexSection>
-    </Section>
+    <div>
+      <Section>
+        <Heading title="Checkout New Products">New Arrivals</Heading>
+        <FlexSection className="pt-5 pb-2 gap-5">
+          {arrivalProducts.map(({ id, imgSrc, quantity, title }) => (
+            <ProductCard key={id} imgSrc={imgSrc} quantity={quantity}>
+              {title}
+            </ProductCard>
+          ))}
+        </FlexSection>
+      </Section>
+    </div>
   );
 };
 
