@@ -11,29 +11,29 @@ const EntireRangSection = () => {
   const products = [
     {
       id: 1,
-      title: "Blue & White Spring Time Pot",
+      title: "Wall Art Good Times/Rainbow Frame",
       imgSrc: img1,
       rating: 0.1,
       price: 100,
     },
     {
       id: 2,
-      title: "Metal Animals/Birds",
-      price: 100,
+      title: "Poppy Wall Art",
+      price: 50,
       imgSrc: img2,
       rating: 0.1,
     },
     {
       id: 3,
-      title: "Rusty Gardenware",
-      price: 100,
+      title: "Corten Ring – Native Flowers",
+      price: 10,
       imgSrc: img3,
       rating: 0.1,
     },
     {
       id: 4,
-      title: "Decorative",
-      price: 100,
+      title: "Rooster Wall Art",
+      price: 200,
       imgSrc: img4,
       rating: 0.1,
     },
@@ -49,6 +49,7 @@ const EntireRangSection = () => {
       <GridSection>
         {products.map(({ id, category, title, price, imgSrc, rating }) => (
           <ProductCard
+            starClass={"bg-white"}
             key={id}
             category={category}
             price={price}

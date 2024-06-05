@@ -14,6 +14,7 @@ const ProductCard = ({
   imgSrc,
   quantity,
   price,
+  starClass,
 }) => {
   const simpleRenderer = ({ index, selectedIndex }) => {
     const selected = index <= selectedIndex;
@@ -48,7 +49,7 @@ const ProductCard = ({
         {rating && (
           <StarPicker
             value={rating / 2}
-            className="blueTheme gap-3 bg-secondary-green w-full flex justify-center"
+            className={`blueTheme gap-3 bg-secondary-green w-full flex justify-center ${starClass}`}
             starRenderer={simpleRenderer}
             disabled
             starCount={2.5}
