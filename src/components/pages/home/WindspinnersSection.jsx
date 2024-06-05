@@ -40,7 +40,7 @@ const WindSpinnersSection = () => {
             <div></div>
             <div>
               <img src={Image2} className="-mb-5 w-32 -ml-5" alt="picture" />
-              <img src={Image3} alt="picture" />
+              <img src={Image3} className="w-60 2xl:w-full" alt="picture" />
             </div>
           </div>
         </FlexSection>

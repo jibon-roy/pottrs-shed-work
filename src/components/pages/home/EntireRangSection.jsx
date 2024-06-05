@@ -46,7 +46,7 @@ const EntireRangSection = () => {
       >
         Entire Range
       </Heading>
-      <GridSection>
+      <GridSection className="gap-5">
         {products.map(({ id, category, title, price, imgSrc, rating }) => (
           <ProductCard
             starClass={"bg-white"}

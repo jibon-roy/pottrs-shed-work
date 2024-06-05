@@ -45,7 +45,7 @@ const TopCategorySection = () => {
   return (
     <Section className="py-5">
       <Heading title={"Here is Our Top Categories"}>Top Categories</Heading>
-      <GridSection>
+      <GridSection className="gap-5">
         {products.map(({ id, category, title, price, imgSrc, rating }) => (
           <ProductCard
             key={id}
