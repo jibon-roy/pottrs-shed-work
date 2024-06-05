@@ -20,15 +20,16 @@
 
 .StarPicker.blueTheme .StarPickerButton.selected {
     color: hsl(111, 28%, 49%);
-    
 }
 
 .StarPicker.blueTheme .StarPickerButton.addSelection {
     color: hsl(111, 28%, 49%);
-    
 }
 
 .StarPicker.blueTheme .StarPickerButton.removeSelection {
     color: hsl(109, 28%, 92%);
-    
+}
+
+.reflect {
+    transform: scaleX(-1) rotate(25deg);
 }
