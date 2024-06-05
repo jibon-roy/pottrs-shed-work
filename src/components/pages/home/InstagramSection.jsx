@@ -56,6 +56,7 @@ const InstagramSection = () => {
           size="sm"
         >
           <Carousel
+            loop
             prevArrow={({ handlePrev }) => (
               <IconButton
                 variant="text"
@@ -86,7 +87,7 @@ const InstagramSection = () => {
                 color="white"
                 size="lg"
                 onClick={handleNext}
-                className="!absolute top-2/4 bg-black/50 rounded-full hover:bg-black/65 active:bg-black/65 !right-4 -translate-y-2/4"
+                className="!absolute top-2/4 bg-black/50 disabled:bg-black/15 rounded-full hover:bg-black/65 active:bg-black/65 !right-4 -translate-y-2/4"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
