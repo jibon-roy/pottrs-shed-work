@@ -46,7 +46,7 @@ const InstagramSection = () => {
           @pottersshed_wholesale
         </p>
       </div>
-      <GridSection className="gap-1">
+      <GridSection className="gap-1 mb-10">
         {photos.map((photo, idx) => (
           <div key={idx}>
             <img
