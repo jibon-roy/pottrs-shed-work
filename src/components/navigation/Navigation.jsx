@@ -3,19 +3,20 @@ import { FaInstagram } from "react-icons/fa";
 import { PiFacebookLogoBold } from "react-icons/pi";
 import { LuMail } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import useAnimation from "../../lib/hooks/useAnimation";
+import useGSAPFrom from "../../lib/GSAP/GSAPForm";
 
 const Navigation = () => {
-  const { leftRef, rightRef } = useAnimation();
+  const fromLeft = useGSAPFrom({ x: -300, y: 0, duration: 1 });
+  const fromRight = useGSAPFrom({ x: 300, y: 0, duration: 1 });
 
   return (
     <nav className="min-h-12 font-medium font-Inter bg-primary-green py-px flex flex-wrap items-center justify-around text-white">
-      <div ref={leftRef} className="left-gsap flex gap-2 items-center">
+      <div ref={fromLeft} className="left-gsap flex gap-2 items-center">
         <FiPhoneCall></FiPhoneCall>0431 344 177
       </div>
 
       <ul
-        ref={rightRef}
+        ref={fromRight}
         className="right-gsap flex gap-2 font-medium flex-wrap justify-center text-center items-center"
       >
         <li>
