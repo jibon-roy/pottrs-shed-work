@@ -1,8 +1,20 @@
-import { Card, CardBody, CardFooter } from "@material-tailwind/react";
+import {
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+} from "@material-tailwind/react";
 import img from "../../assets/products/green_shells.png";
 import StarPicker from "react-star-picker";
 
-const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
+const ProductCard = ({
+  category,
+  children,
+  rating,
+  imgSrc,
+  quantity,
+  price,
+}) => {
   const simpleRenderer = ({ index, selectedIndex }) => {
     const selected = index <= selectedIndex;
 
@@ -14,6 +26,11 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
 
   return (
     <Card className={`rounded-none mx-auto max-w-sm p-0 shadow-none`}>
+      {category && (
+        <CardHeader className="px-0 text-center text-xl pt-2 text-accent-dark font-Inter">
+          {category}
+        </CardHeader>
+      )}
       <CardBody
         className={`${
           rating ? "shadow-md hover:shadow-lg transition" : "shadow-none"

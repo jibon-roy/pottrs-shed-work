@@ -5,6 +5,7 @@ import ArrivalsSection from "../../../components/pages/home/ArrivalsSection";
 import ConnectedSection from "../../../components/pages/home/ConnectedSection";
 import BackInStockSection from "../../../components/pages/home/BackInStockSection";
 import WindSpinnersSection from "../../../components/pages/home/WindspinnersSection";
+import TopCategorySection from "../../../components/pages/home/TopCategorySection";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <ConnectedSection />
       <BackInStockSection />
       <WindSpinnersSection />
+      <TopCategorySection />
     </>
   );
 };
