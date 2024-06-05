@@ -12,6 +12,7 @@ import { Dialog } from "@material-tailwind/react";
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import { IconButton } from "@material-tailwind/react";
+import Heading from "../../mainHeading/Heading";
 
 const InstagramSection = () => {
   const [open, setOpen] = useState(false);
@@ -39,6 +40,12 @@ const InstagramSection = () => {
 
   return (
     <Section>
+      <div className="mb-10">
+        <Heading className="mb-3">Follow Us On Instagram</Heading>
+        <p className="text-center text-3xl font-medium text-primary-green">
+          @pottersshed_wholesale
+        </p>
+      </div>
       <GridSection className="gap-1">
         {photos.map((photo, idx) => (
           <div key={idx}>
