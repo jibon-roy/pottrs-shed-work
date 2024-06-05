@@ -33,7 +33,7 @@ const WindSpinnersSection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-full  border-solid border-[#D9D9D9] border-[10px]">
+          <div className="rounded-full border-solid border-[#D9D9D9] border-[10px]">
             <img src={Image1} alt="picture" />
           </div>
           <div className="flex flex-col justify-between">
