@@ -13,13 +13,18 @@ const ProductCard = ({ children, rating, imgSrc, quantity, price }) => {
   };
 
   return (
-    <Card className={`rounded-none max-w-sm p-0 shadow-none`}>
+    <Card className={`rounded-none mx-auto max-w-sm p-0 shadow-none`}>
       <CardBody
         className={`${
-          rating ? "shadow-md" : "shadow-none"
+          rating ? "shadow-md hover:shadow-lg transition" : "shadow-none"
         } flex justify-center -p-2 flex-col items-center`}
       >
-        <img src={imgSrc ? imgSrc : img} />
+        <img
+          src={imgSrc ? imgSrc : img}
+          className={
+            !rating ? "shadow-md hover:shadow-lg transition" : "shadow-none"
+          }
+        />
 
         {rating && (
           <StarPicker

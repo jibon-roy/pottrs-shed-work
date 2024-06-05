@@ -8,7 +8,7 @@ import FlexSection from "../../Section/FlexSection";
 const CultivateSection = () => {
   return (
     <Section className="bg-secondary-green py-16">
-      <FlexSection className="justify-between">
+      <div className="flex justify-between flex-col xl:flex-row">
         <div className="relative max-w-[35rem] mx-auto lg:max-w-[37rem] font-Noto">
           <h1 className="text-6xl leading-[74.4px] lg:leading-[74.4px]  text-accent-dark">
             Cultivate Your Outdoor Paradise with Plants & Decor!
@@ -30,7 +30,7 @@ const CultivateSection = () => {
             alt="flowers"
           />
         </div>
-      </FlexSection>
+      </div>
     </Section>
   );
 };
