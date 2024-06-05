@@ -8,6 +8,7 @@ import WindSpinnersSection from "../../../components/pages/home/WindspinnersSect
 import TopCategorySection from "../../../components/pages/home/TopCategorySection";
 import EntireRangSection from "../../../components/pages/home/EntireRangSection";
 import DiscountSection from "../../../components/pages/home/DiscountSection";
+import InstagramSection from "../../../components/pages/home/InstagramSection";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       <TopCategorySection />
       <DiscountSection />
       <EntireRangSection />
+      <InstagramSection />
     </>
   );
 };
