@@ -4,7 +4,7 @@ import FooterSection from "../../components/Section/FooterSection";
 
 const MainLayout = () => {
   return (
-    <div className="container text-accent-dark font-Inter">
+    <div className="container overflow-x-hidden text-accent-dark font-Inter">
       <Navigation />
       <Outlet />
       <FooterSection />

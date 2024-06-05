@@ -3,14 +3,21 @@ import { FaInstagram } from "react-icons/fa";
 import { PiFacebookLogoBold } from "react-icons/pi";
 import { LuMail } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import useAnimation from "../../lib/hooks/useAnimation";
+
 const Navigation = () => {
+  const { leftRef, rightRef } = useAnimation();
+
   return (
     <nav className="min-h-12 font-medium font-Inter bg-primary-green py-px flex flex-wrap items-center justify-around text-white">
-      <div className="flex gap-2 items-center">
+      <div ref={leftRef} className="left-gsap flex gap-2 items-center">
         <FiPhoneCall></FiPhoneCall>0431 344 177
       </div>
 
-      <ul className="flex gap-2 font-medium flex-wrap justify-center text-center items-center">
+      <ul
+        ref={rightRef}
+        className="right-gsap flex gap-2 font-medium flex-wrap justify-center text-center items-center"
+      >
         <li>
           <Link to="/">Home</Link>
         </li>
