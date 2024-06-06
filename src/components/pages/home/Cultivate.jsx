@@ -9,7 +9,13 @@ const CultivateSection = () => {
   const fromLeft1 = useGSAPFrom({ x: -100, y: 0, duration: 1, delay: 0 });
   const fromLeft2 = useGSAPFrom({ x: -100, y: 0, duration: 1, delay: 0.3 });
   const fromLeft3 = useGSAPFrom({ x: -100, y: 0, duration: 1, delay: 0.5 });
-  const fromLeft4 = useGSAPFrom({ x: 100, y: 0, duration: 1, delay: 0.7 });
+  const fromLeft4 = useGSAPFrom({
+    x: 100,
+    y: 0,
+    duration: 1,
+    delay: 0.3,
+    skewX: 10,
+  });
   return (
     <Section className="bg-secondary-green py-16">
       <div className="flex justify-between flex-col xl:flex-row">

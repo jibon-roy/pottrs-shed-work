@@ -41,7 +41,7 @@ const BackInStockSection = () => {
   ];
 
   return (
-    <Section>
+    <Section animated>
       <Heading title="Top Demand Products Now Back in Stock">
         Back in Stock
       </Heading>

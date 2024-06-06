@@ -10,7 +10,7 @@ import Heading from "../../mainHeading/Heading";
 
 const ConnectedSection = () => {
   return (
-    <Section className="bg-secondary-green py-5">
+    <Section animated className="bg-secondary-green py-5">
       <FlexSection className="items-center justify-between">
         <div>
           <img src={bg1} alt="" />

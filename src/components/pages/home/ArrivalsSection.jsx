@@ -37,7 +37,7 @@ const ArrivalsSection = () => {
 
   return (
     <div>
-      <Section>
+      <Section animated>
         <Heading title="Checkout New Products">New Arrivals</Heading>
         <FlexSection className="pt-5 pb-2 gap-5">
           {arrivalProducts.map(({ id, imgSrc, quantity, title }) => (
