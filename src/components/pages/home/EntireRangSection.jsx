@@ -1,11 +1,11 @@
 import Section from "../../Section/Section";
 import ProductCard from "../../card/ProductCard";
 import Heading from "../../mainHeading/Heading";
+import GridSection from "../../Section/GridSection";
 import img1 from "../../../assets/products/Rectangle98.png";
 import img2 from "../../../assets/products/Rectangle98_1.png";
 import img3 from "../../../assets/products/Rectangle98_2.png";
 import img4 from "../../../assets/products/Rectangle98_3.png";
-import GridSection from "../../Section/GridSection";
 
 const EntireRangSection = () => {
   const products = [
