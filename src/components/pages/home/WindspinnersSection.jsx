@@ -1,11 +1,11 @@
 import FlexSection from "../../Section/FlexSection";
 import Section from "../../Section/Section";
+import ButtonGreen from "../../button/ButtonGreen";
 import Image1 from "../../../assets/images/Rectangle102.png";
 import Image2 from "../../../assets/bg_texture/Vector3.png";
 import Image3 from "../../../assets/images/Rectangle100.png";
 import Image4 from "../../../assets/bg_texture/OBJECTS.png";
 import Image5 from "../../../assets/images/Rectangle99.png";
-import ButtonGreen from "../../button/ButtonGreen";
 
 const WindSpinnersSection = () => {
   return (
