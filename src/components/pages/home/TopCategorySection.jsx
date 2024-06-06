@@ -1,11 +1,11 @@
 import Section from "../../Section/Section";
 import ProductCard from "../../card/ProductCard";
 import Heading from "../../mainHeading/Heading";
+import GridSection from "../../Section/GridSection";
 import img1 from "../../../assets/products/Rectangle97.png";
 import img2 from "../../../assets/products/Rectangle97_1.png";
 import img3 from "../../../assets/products/Rectangle97_2.png";
 import img4 from "../../../assets/products/Rectangle97_3.png";
-import GridSection from "../../Section/GridSection";
 
 const TopCategorySection = () => {
   const products = [
