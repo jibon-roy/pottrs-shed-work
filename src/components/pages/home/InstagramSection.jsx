@@ -76,8 +76,8 @@ const InstagramSection = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   strokeWidth={2}
-                  viewBox="0 0 24 24"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
                   className="h-6 w-6"
                 >
                   <path
