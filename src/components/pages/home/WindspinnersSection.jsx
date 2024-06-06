@@ -1,5 +1,5 @@
-import FlexSection from "../../Section/FlexSection";
 import Section from "../../Section/Section";
+import FlexSection from "../../Section/FlexSection";
 import ButtonGreen from "../../button/ButtonGreen";
 import Image1 from "../../../assets/images/Rectangle102.png";
 import Image2 from "../../../assets/bg_texture/Vector3.png";
