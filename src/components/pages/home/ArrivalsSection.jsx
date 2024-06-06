@@ -1,11 +1,11 @@
 import ProductCard from "../../card/ProductCard";
 import Heading from "../../mainHeading/Heading";
+import Section from "../../Section/Section";
+import FlexSection from "../../Section/FlexSection";
 import img1 from "../../../assets/products/green_shells.png";
 import img2 from "../../../assets/products/Rectangle93.png";
 import img3 from "../../../assets/products/Rectangle94.png";
 import img4 from "../../../assets/products/Rectangle95.png";
-import Section from "../../Section/Section";
-import FlexSection from "../../Section/FlexSection";
 
 const ArrivalsSection = () => {
   const arrivalProducts = [
