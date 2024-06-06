@@ -18,6 +18,5 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "no-console": "error",
-    "prop-types": false,
   },
 };
