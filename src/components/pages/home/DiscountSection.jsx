@@ -4,8 +4,8 @@ import flower1 from "../../../assets/images/Rectangle104.png";
 import flower2 from "../../../assets/bg_texture/Vector4.png";
 import flower3 from "../../../assets/images/Rectangle105.png";
 import flower4 from "../../../assets/bg_texture/Vector1.png";
-import Heading from "../../mainHeading/Heading";
 import ButtonGreen from "../../button/ButtonGreen";
+import Heading from "../../mainHeading/Heading";
 
 const DiscountSection = () => {
   return (
