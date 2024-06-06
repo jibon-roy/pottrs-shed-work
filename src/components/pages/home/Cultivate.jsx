@@ -6,8 +6,8 @@ import ButtonGreen from "../../button/ButtonGreen";
 import useGSAPFrom from "../../../lib/GSAP/GSAPForm";
 
 const CultivateSection = () => {
-  const fromLeft2 = useGSAPFrom({ x: -100, y: 0, duration: 2, delay: 0.3 });
   const fromLeft1 = useGSAPFrom({ x: -100, y: 0, duration: 2, delay: 0 });
+  const fromLeft2 = useGSAPFrom({ x: -100, y: 0, duration: 2, delay: 0.3 });
   const fromLeft3 = useGSAPFrom({ x: -100, y: 0, duration: 2, delay: 0.5 });
   const fromLeft4 = useGSAPFrom({
     x: 100,
