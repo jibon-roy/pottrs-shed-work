@@ -10,7 +10,7 @@ import ButtonGreen from "../../button/ButtonGreen";
 const WindSpinnersSection = () => {
   return (
     <div className="h-[560px] flex items-center my-28 w-full bg-secondary-green">
-      <Section animate className="w-full">
+      <Section animated className="w-full">
         <FlexSection className="justify-between relative">
           <div className="max-w-sm flex flex-col justify-between">
             <div></div>
