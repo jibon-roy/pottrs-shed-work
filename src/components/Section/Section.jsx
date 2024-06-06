@@ -13,7 +13,7 @@ const Section = forwardRef(({ children, className, animated }, ref) => {
       if (cardAnimation.current) {
         const animation = gsap.fromTo(
           cardAnimation.current,
-          { opacity: 0, y: 100, duration: 1 },
+          { opacity: 0, y: 100, duration: 0.3 },
           {
             opacity: 1,
             y: 0,

@@ -9,8 +9,8 @@ import ButtonGreen from "../../button/ButtonGreen";
 
 const WindSpinnersSection = () => {
   return (
-    <div className="h-[560px] flex items-center my-28 w-full bg-secondary-green">
-      <Section animated className="w-full">
+    <div className="2xl:h-[560px] flex items-center justify-center my-28 w-full bg-secondary-green">
+      <Section animated className="lg:w-full">
         <FlexSection className="justify-between relative">
           <div className="max-w-sm flex flex-col justify-between">
             <div></div>
@@ -29,11 +29,11 @@ const WindSpinnersSection = () => {
               </p>
               <ButtonGreen>Shop Now</ButtonGreen>
               <div>
-                <img src={Image5} alt="" />
+                <img src={Image5} alt="image5" />
               </div>
             </div>
           </div>
-          <div className="rounded-full border-solid border-[#D9D9D9] border-[10px]">
+          <div className="rounded-full hidden 2xl:block border-solid border-[#D9D9D9] border-[10px]">
             <img src={Image1} alt="picture" />
           </div>
           <div className="flex flex-col justify-between">
