@@ -23,7 +23,7 @@ const WindSpinnersSection = () => {
               <h3 className="text-4xl font-Inter font-medium">Windspinners</h3>
               <p className="font-medium">
                 Wind spinners add charm to outdoor spaces with their graceful
-                twirls, capturing the essence of nature's breezes. Hung from
+                twirls, capturing the essence of nature{"'"}s breezes. Hung from
                 trees or placed in gardens, they create mesmerizing focal
                 points, inviting moments of tranquility.
               </p>
