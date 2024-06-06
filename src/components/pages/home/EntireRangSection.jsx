@@ -50,8 +50,8 @@ const EntireRangSection = () => {
         {products.map(({ id, category, title, price, imgSrc, rating }) => (
           <ProductCard
             starClass={"bg-white"}
-            key={id}
             category={category}
+            key={id}
             price={price}
             imgSrc={imgSrc}
             rating={rating}
