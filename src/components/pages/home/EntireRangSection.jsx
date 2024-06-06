@@ -39,7 +39,7 @@ const EntireRangSection = () => {
     },
   ];
   return (
-    <Section className=" bg-secondary-green">
+    <Section animated className=" bg-secondary-green">
       <Heading
         className="py-5"
         title={"Check Out Our Entire Range of Products"}

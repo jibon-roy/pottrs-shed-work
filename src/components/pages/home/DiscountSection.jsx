@@ -9,7 +9,7 @@ import ButtonGreen from "../../button/ButtonGreen";
 
 const DiscountSection = () => {
   return (
-    <Section className="bg-secondary-green">
+    <Section animate className="bg-secondary-green">
       <FlexSection className="gap-5 justify-between flex-wrap items-center">
         <div className="mx-auto">
           <img src={flower1} alt="flower1" />
