@@ -16,6 +16,7 @@ const CultivateSection = () => {
     delay: 0.3,
     skewX: 10,
   });
+
   return (
     <Section className="bg-secondary-green py-16">
       <div className="flex justify-between flex-col xl:flex-row">
