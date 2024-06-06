@@ -1,4 +1,3 @@
-import React from "react";
 import Section from "../../Section/Section";
 import FlexSection from "../../Section/FlexSection";
 import bg1 from "../../../assets/bg_texture/Vector3.png";
