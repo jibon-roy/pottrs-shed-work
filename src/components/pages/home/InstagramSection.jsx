@@ -66,8 +66,8 @@ const InstagramSection = () => {
             loop
             prevArrow={({ handlePrev }) => (
               <IconButton
-                variant="text"
                 color="white"
+                variant="text"
                 size="lg"
                 onClick={handlePrev}
                 className="!absolute top-2/4 left-4 rounded-full bg-black/50 active:bg-black/65 hover:bg-black/65 -translate-y-2/4"
