@@ -12,8 +12,8 @@ const ArrivalsSection = () => {
     {
       id: 1,
       title: "Ceramic Garden Snail with Green Shell",
-      imgSrc: img1,
       quantity: 10,
+      imgSrc: img1,
     },
     {
       id: 2,
