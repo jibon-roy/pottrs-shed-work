@@ -11,15 +11,15 @@ const ArrivalsSection = () => {
   const arrivalProducts = [
     {
       id: 1,
-      title: "Ceramic Garden Snail with Green Shell",
-      quantity: 10,
-      imgSrc: img1,
-    },
-    {
-      id: 2,
       title: "Bee Pot Hanger with Metal Legs",
       quantity: 10,
       imgSrc: img2,
+    },
+    {
+      id: 2,
+      title: "Ceramic Garden Snail with Green Shell",
+      quantity: 10,
+      imgSrc: img1,
     },
     {
       id: 3,
